@@ -1,0 +1,10 @@
+Biomes
+{
+	Testing Site
+	{
+		script = "Test.lua"
+		weight = 3
+		minSize = 5
+		maxSize = 5
+	}
+}
