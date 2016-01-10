@@ -1,0 +1,13 @@
+Manifest
+{
+	# Name of the mods.
+	Name = "SimplexNoiseTester"
+
+	# Description of the mod.
+	Description = "Title says it all."
+
+	Rules
+	{
+		FlyingEnabled = 1
+	}
+}
