@@ -1,6 +1,6 @@
 Generators
 {
-	All of the testing
+	TESTING
 	{
 		Testing Site
 	}

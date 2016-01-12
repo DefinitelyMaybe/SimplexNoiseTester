@@ -6,13 +6,31 @@ end
 
 -------------------------------------------------------------------------------
 function Test:BuildTree()
-	--materials
-	local theMaterials = self:SwitchMaterial(self:Material("Green Hills"), self:Material("Sand"), self:Simplex((1 / 16) / 1, 1))
+	--colours
+	local red = self:Material("Clay Red")
+	local white = self:Material("Clay White")
+	local orange = self:Material("Clay Orange")
+	local black = self:Material("Clay Black")
+	local purple = self:Material("Clay Purple")
+	local pink = self:Material("Clay Pink")
 
-	--terrain
-	local theterrain = self:Constant(90)
+	local quickView = true
+	
+	if quickView then
+		local theMaterials = self:SwitchMaterial(black, white, self:Simplex((1 / 16) / 8, 4))
 
-	return theterrain, theMaterials
+		--terrain
+		local theterrain = self:Constant(90)
+	
+		return theterrain, theMaterials
+	else
+		local theMaterials = self:SwitchMaterial(red, orange, self:Simplex((1 / 16) / 8, 4))
+
+		--terrain
+		local theterrain = self:Constant(90)
+	
+		return theterrain, theMaterials
+	end
 end
 
 Test.Lighting =

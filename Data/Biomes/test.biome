@@ -3,8 +3,8 @@ Biomes
 	Testing Site
 	{
 		script = "Test.lua"
-		weight = 3
-		minSize = 5
-		maxSize = 5
+		weight = 7
+		minSize = 4
+		maxSize = 6
 	}
 }

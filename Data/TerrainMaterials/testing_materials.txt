@@ -1,0 +1,23 @@
+root
+{
+	Materials
+	{
+		Hunting Grounds Grass1
+		{
+			inherit = "Dirt"
+			top = "GrassA"
+			billboard = "Grass 1"
+			billboard1 = "Grass 2"
+			billboard2 = "Grass 8"
+		}	
+		Hunting Grounds Grass2
+		{
+			inherit = "Dirt"
+			top = "GrassA"
+			billboard = "Grass 1"
+			billboard = "Grass 8"
+			billboard1 = "Grass 9"
+			billboard2 = "Tall Green Grass"
+		}
+	}
+}
